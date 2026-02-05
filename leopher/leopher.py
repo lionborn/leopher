@@ -328,5 +328,3 @@ Press enter to continue...
 """)
   input()
   top_menu()
-
-main()
