@@ -11,7 +11,7 @@ description = "Project encrypts and decrypts messages through Caesar and Vigenè
 readme = "README.md"
 requires-python = ">=3.8"
 keywords = ["encryption", "cipher", "caesar", "vigenere"]
-license = "GNU-GPL-3.0"
+license = "GPL-3.0-only"
 classifiers = [
     "Programming Language :: Python :: 3",
 ]
