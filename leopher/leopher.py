@@ -8,16 +8,16 @@
 #######################################################################
 
 
-import modules.languages as Languages
+from .modules import languages as Languages
 
 print("Loading Cipher Algorithms...")
 
-import modules.caesar as Caesar
-import modules.vigenere as Vigenere
+from .modules import caesar as Caesar
+from .modules import vigenere as Vigenere
 
 print("Cipher Algorithms loaded.")
 
-import modules.filecrypt as Filecrypt
+from .modules import filecrypt as Filecrypt
 
 
 #######################################################################

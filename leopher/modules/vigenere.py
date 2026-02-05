@@ -8,7 +8,7 @@ print("Loading Vigenère Cipher Algorithm...")
 #   Cipher Algorithm   #
 #----------------------#
 
-import modules.languages as Languages
+from . import languages as Languages
 alphabet = Languages.alphabet
 
 # Test if charachter is alphabetical

@@ -7,7 +7,7 @@
 #   Cipher Algorithm   #
 #----------------------#
 
-import modules.languages as Languages
+from . import languages as Languages
 alphabet = Languages.alphabet
 
 

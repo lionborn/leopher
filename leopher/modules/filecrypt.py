@@ -3,9 +3,9 @@
 ####################### File Encryption Module ########################
 #######################################################################
 
-import modules.languages as Languages
-import modules.caesar as Caesar
-import modules.vigenere as Vigenere
+from . import languages as Languages
+from . import caesar as Caesar
+from . import vigenere as Vigenere
 
 print("Loading File Module...")
 
