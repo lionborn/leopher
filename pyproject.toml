@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leopher"
+authors = [
+    {name = "Leo Hoxha"},
+]
+description = "Project encrypts and decrypts messages through Caesar and Vigenère Cipher algorithms."
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["encryption", "cipher", "caesar", "vigenere"]
+license = "GNU-GPL-3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+version = "3.1"
+dependencies = [
+    'importlib-metadata; python_version<"3.8"',
+]
+
+[project.scripts]
+leopher = "leopher"

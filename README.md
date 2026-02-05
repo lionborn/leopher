@@ -14,9 +14,13 @@ Project encrypts and decrypts messages through Caesar and Vigenère Cipher algor
 
 **Coded by theLionborn - Leo Hoxha**
 
-Version 3.0 - February 2026
+Version 3.1 - February 2026
 
 **Compatibility: Python 3 Standard**
+
+## Installation
+
+`pip3 install git+https://github.com/lionborn/leopher`
 
 ## Usage
 
@@ -45,6 +49,10 @@ Follow the UI next through keyboard input.
 - Hebrew
 
 ## Changelog
+
+### Version 3.1 - 5 February 2026
+
+- Added pip install support
 
 ### Version 3.0 - 5 February 2026
 
