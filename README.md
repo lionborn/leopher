@@ -8,7 +8,7 @@
 
 ​     `L L L L  E E E E  O O O O  P        H     H  E E E E  P     P`
 
-# Leopher 3.0
+# Leopher 3.1
 
 Project encrypts and decrypts messages through Caesar and Vigenère Cipher algorithms.
 
