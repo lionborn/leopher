@@ -24,29 +24,6 @@ import modules.filecrypt as Filecrypt
 ########################### User Interface ############################
 #######################################################################
 
-print("""
-
-     L        E E E E  O O O O  P P P    H     H  E E E E  P P P
-     L        E        O     O  P     P  H     H  E        P     P
-     L        E E E    O     O  P P P    H H H H  E E E    P P P
-     L        E        O     O  P        H     H  E        P   P
-     L L L L  E E E E  O O O O  P        H     H  E E E E  P     P
-
-#######################################################################
-############################ Leopher 3.1 ##############################
-############################ theLionborn ##############################
-############################# Feb  2026 ###############################
-#######################################################################
-#                                                                     #
-#  Release Notes:                                                     #
-#     - installation support                                          #
-#                                                                     #
-#######################################################################
-
-Press enter to continue...
-""")
-input()
-
 def print_invalid_option():
   print("""
                              ----------------------------------------##
@@ -326,4 +303,30 @@ def vigenere_file_input_menu():
       print_invalid_option()
       vigenere_file_input_menu()
 
-top_menu()
+
+def main():
+  print("""
+
+     L        E E E E  O O O O  P P P    H     H  E E E E  P P P
+     L        E        O     O  P     P  H     H  E        P     P
+     L        E E E    O     O  P P P    H H H H  E E E    P P P
+     L        E        O     O  P        H     H  E        P   P
+     L L L L  E E E E  O O O O  P        H     H  E E E E  P     P
+
+#######################################################################
+############################ Leopher 3.1 ##############################
+############################ theLionborn ##############################
+############################# Feb  2026 ###############################
+#######################################################################
+#                                                                     #
+#  Release Notes:                                                     #
+#     - installation support                                          #
+#                                                                     #
+#######################################################################
+
+Press enter to continue...
+""")
+  input()
+  top_menu()
+
+main()

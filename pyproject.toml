@@ -21,4 +21,4 @@ dependencies = [
 ]
 
 [project.scripts]
-leopher = "leopher"
+leopher = "leopher:main"
