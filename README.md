@@ -24,9 +24,9 @@ Version 3.1 - February 2026
 
 ## Usage
 
-Run the script in Python:
+Run:
 
-`python3 leopher.py`
+`leopher`
 
 Follow the UI next through keyboard input.
 
