@@ -148,7 +148,7 @@ def caesar_file_decrypt():
     while True:
         try:
             key = int(encryption_key)
-            encrypted_contents = Caesar.caesar_decrypt(file_to_decrypt, key) 
+            decrypted_contents = Caesar.caesar_decrypt(file_to_decrypt, key) 
             break
         except ValueError:
             print("\n##   Invalid key. Please make sure your key is strictly numerical.   ##\n\n")

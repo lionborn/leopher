@@ -1,20 +1,16 @@
-​     `L        E E E E  O O O O  P P P    H     H  E E E E  P P P`
+​     `L        E E E E  O O O O  P P P    H     H  E E E E  R R R`
+​     `L        E        O     O  P     P  H     H  E        R     R`
+​     `L        E E E    O     O  P P P    H H H H  E E E    R R R`
+​     `L        E        O     O  P        H     H  E        R   R`
+​     `L L L L  E E E E  O O O O  P        H     H  E E E E  R     R`
 
-​     `L        E        O     O  P     P  H     H  E        P     P`
-
-​     `L        E E E    O     O  P P P    H H H H  E E E    P P P`
-
-​     `L        E        O     O  P        H     H  E        P   P`
-
-​     `L L L L  E E E E  O O O O  P        H     H  E E E E  P     P`
-
-# Leopher 3.1
+# Leopher 3.2
 
 Project encrypts and decrypts messages through Caesar and Vigenère Cipher algorithms.
 
 **Coded by theLionborn - Leo Hoxha**
 
-Version 3.1 - February 2026
+Version 3.2 - February 2026
 
 **Compatibility: Python 3 Standard**
 
@@ -49,6 +45,10 @@ Follow the UI next through keyboard input.
 - Hebrew
 
 ## Changelog
+
+### Version 3.2 - 6 February 2026
+
+- Bug fixes
 
 ### Version 3.1 - 5 February 2026
 
